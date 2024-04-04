@@ -1,0 +1,11 @@
+.letter {
+    color: aliceblue;
+    padding: 10px;
+    text-shadow: 3px 3px 4px rgb(183, 181, 181);
+}
+
+.flexBox {
+    display: inline-flex;
+    border-bottom: 1px solid white;
+    height: 75px;
+}

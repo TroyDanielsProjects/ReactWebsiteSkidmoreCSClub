@@ -1,0 +1,15 @@
+#magic {
+    text-align: center;
+    height: 200px;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+  }
+
+h4 {
+    color: white;
+  }
+

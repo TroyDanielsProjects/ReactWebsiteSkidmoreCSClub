@@ -1,0 +1,54 @@
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.event {
+    border: 1px solid white;
+    width: 25%;
+    margin: 10px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    border-bottom: 1px solid white;
+    width: 100%;
+    max-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date {
+    border-bottom: 1px solid white;
+    width: 100%;
+    max-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img{
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    border-bottom: 1px solid white;
+}
+
+.discription {
+    width: 100%;
+    display: flex;
+    max-height: 200px;
+}
+
+.discription p {
+    text-align: left;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+
+}

@@ -1,0 +1,27 @@
+.about {
+    color:white;
+}
+
+.whatIS h3{
+    text-decoration: underline;
+}
+
+.board h3 {
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.members {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.names{
+    display: block;
+    width: 40%;
+}
+
+.names h4{
+    margin-bottom: 20px;
+}

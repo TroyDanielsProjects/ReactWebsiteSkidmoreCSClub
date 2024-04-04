@@ -1,0 +1,46 @@
+.computer {
+    width: 98%;
+    height: 98%;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.enterBox {
+    margin-bottom: 20px;
+}
+
+
+
+.enterBox label{
+    margin-right: 5px;
+    color: white;
+}
+
+.enterBox2 button{
+    background-color: #2176FF;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.enterBox2 button:hover{
+    background-color: #fff;
+    color: #2176FF;
+    transition: color .5s ease-in, background-color .5s ease-in;
+}
+
+.enterBox2 button:active{
+    font-size: 18px;
+    transition: font-size .5s ease-in-out;
+}

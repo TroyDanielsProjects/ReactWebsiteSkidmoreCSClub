@@ -1,0 +1,25 @@
+.computer2 {
+    width: 98%;
+    height: 98%;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.folder {
+    margin: 15px;
+    width: 75px;
+    height: 75px;
+}
+
+
+.folder p{
+    position: relative;
+    bottom: 20px;
+    color: white;
+}
+

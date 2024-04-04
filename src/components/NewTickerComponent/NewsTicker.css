@@ -1,0 +1,39 @@
+.news {
+    border: 2px solid white;
+    background-color: white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 25px;
+    overflow: hidden;
+}
+
+.lab{
+    list-style: none;
+}
+
+.scroll1 {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: circle;
+    justify-content: space-between;
+    width: 100%;
+    animation: newsMove 25s linear infinite;
+}
+
+
+.news ul li{
+    margin-right: 30px;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+
+@keyframes newsMove {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-150%);
+  }
+}
+

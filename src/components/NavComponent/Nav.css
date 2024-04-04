@@ -1,0 +1,30 @@
+.location {
+    display: block;
+    margin-bottom: 30px;
+    align-items: flex-end;
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+}
+
+.place {
+    color: white;
+    text-decoration: none;
+}
+
+.location:hover {
+    animation: hang 4s ease-in forwards ;
+}
+
+@keyframes hang {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(45deg);
+    }
+  }
+  

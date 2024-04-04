@@ -1,0 +1,43 @@
+.page {
+    position: absolute;
+    border: 1px solid white;
+    align-self: center;
+    width: 334px;
+    height: 400px;
+    margin-right: 225px;
+    padding: 0;
+    background-color: rgba(2, 2, 2, 0.69);
+    justify-content: center;
+}
+
+.page p {
+    color: white;
+}
+.page h1 {
+    color: white;
+}
+.page h3 {
+    color: white;
+}
+
+.page label {
+    color: white;
+    margin-right: 5px;
+}
+
+.page button {
+    margin-top: 20px;
+    width: 100px;
+    height: 25px;
+}
+
+.page h2 {
+    color: white;
+    margin-right: 5px;
+}
+
+
+.xSVG {
+    position: relative;
+    right: 150px;
+}
